@@ -1,0 +1,13 @@
+my_global = "trilochan"
+
+def my_function():
+    my_enclosing = "karki"
+    def my_inner_function():
+        my_local = "hello"
+        print("Local:", my_local)
+        print("Enclosing:", my_enclosing)
+        print("Global:", my_global)
+    my_inner_function()
+    print("Enclosing main function indside, outsid inner:", my_enclosing)
+
+my_function()
