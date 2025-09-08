@@ -1,3 +1,5 @@
+# scope - the region where a variable is recognized
+# think of scope like a concentric circle, inner circle can access outer circle but outer circle cannot access inner circle
 my_global = "trilochan"
 
 def my_function():
