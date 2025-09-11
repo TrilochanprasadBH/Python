@@ -24,4 +24,3 @@ print(vanilla())
 from recipes.flavours import * 
 
 print("import all:",vanilla())
-
