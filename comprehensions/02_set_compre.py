@@ -16,5 +16,5 @@ more_complex = {
     "hello": ["hi","hello","truth"]
 }
 
-com_list = {item for keys in more_complex.values() for item in keys }
+com_list = {item for key_names in more_complex.values() for item in key_names }
 print(com_list)
