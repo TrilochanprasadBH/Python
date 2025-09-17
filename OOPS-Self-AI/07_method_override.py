@@ -30,7 +30,7 @@ animals = [Dog("Tommy"), Cat("Whiskers"), Cow("Kamadhenu")]
 
 for animal in animals:
     animal.introduce()  # Same method call, different behaviors!
-    
+
 #################
 #example 2
 class Learning:
